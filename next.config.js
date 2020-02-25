@@ -1,4 +1,5 @@
 module.exports = {
+    exportTrailingSlash: true,
     webpack: (cfg) => {
         cfg.module.rules.push(
             {
