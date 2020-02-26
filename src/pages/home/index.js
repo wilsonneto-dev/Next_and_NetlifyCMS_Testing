@@ -1,7 +1,7 @@
 import Head from "next/head"
 import { Component } from 'react'
-import { attributes, react as HomeContent } from '../../../_content/home.md';
-
+import { attributes, body as homeContent } from '../../../_content/home.md';
+import ReactMarkdown from 'react-markdown';
 import HeaderNav from '../../shared/layout/HeaderNav';
 
 export default class Home extends Component {
@@ -16,7 +16,7 @@ export default class Home extends Component {
           <HeaderNav />
           
           <h1>{title}</h1>
-          <HomeContent />
+          <ReactMarkdown source={homeContent} />
           <ul>
             {cats.map((cat, k) => (
               <li key={k}>
