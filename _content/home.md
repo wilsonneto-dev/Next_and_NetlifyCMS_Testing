@@ -12,6 +12,8 @@ cats:
     name: Teste gatito barto
   - description: Testeee
     name: Novo
+  - description: Gato siamês folgado
+    name: Bartô
 ---
 Welcome to my awesome page about cats of the internet.
 
