@@ -6,7 +6,6 @@ public_folder: img
 collections:
   - name: 'posts'
     label: 'Posts'
-    name: 'post'
     folder: '_content/posts'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
