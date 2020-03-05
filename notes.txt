@@ -1,2 +1,0 @@
-use the webpack plugin "frontmatter-markdown-loader" to import single files.
-
